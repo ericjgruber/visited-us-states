@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+/*
+  The .state class sets the default fill color for all states.
+*/
+.state {
+  fill:#D3D3D3;
+}
+
+.legend {
+  float: right;
+  margin-bottom: 2em;
+  width: 10em;
+}
+
+.legend h4 {
+  border-bottom: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: .5em 0;
+  text-align: center;
+}
+
+.legend p {
+  display: flex;
+}
+
+.legend span {
+  height: 20px;
+  margin-right: .5em;
+  width: 20px;
+}
+
+path.visited {
+  fill: green;
+}
+
+path.planned {
+  fill: purple;
+}
