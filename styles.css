@@ -34,10 +34,17 @@ h1 {
   width: 20px;
 }
 
+span.visited {
+  background-color: green;
+}
+
+span.planned {
+  background-color: rebeccapurple;
+}
 path.visited {
   fill: green;
 }
 
 path.planned {
-  fill: purple;
+  fill: rebeccapurple;
 }
