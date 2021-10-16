@@ -9,6 +9,10 @@ h1 {
   fill:#D3D3D3;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .legend {
   float: right;
   margin-bottom: 2em;

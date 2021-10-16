@@ -3,15 +3,18 @@
   <title>Visited States</title>
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">  
   <link rel="stylesheet" href="styles.css" type="text/css">
-  
+  <script src="scripts.js"></script>  
 </head>
 
 <body>
   <h1>Visited U.S. States</h1>
   <div class="legend">
     <h4>Legend</h4>
-    <p><span class="visited"></span> Visited</p>
-    <p><span class="planned"></span> Planned</p>
+    <p>
+      <span class="visited"></span> Visited: <span id="stateCount" class="bold"></span>
+    </p>
+    <p>
+      <span class="planned"></span> Planned: <span id="statePlanned" class="bold"></span></p>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" width="959" height="593">
     <title>Blank US states map</title>
